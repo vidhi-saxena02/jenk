@@ -1,10 +1,10 @@
 pipeline {
  agent any
   stages {
-    stage ('running java file') {
+    stage ('running sh file') {
       steps {
         echo "kya be"
-        sh "javac test.jaa"
+        sh "bash free.sh"
      }
       
     }
